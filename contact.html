@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grill BBQ Restaurant </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.17/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container px-0" style="background-color: #FFFFFF;">
+        <nav class="navbar flex-nowrap py-0 " style="background-color: #F2F3F5">
+            <a class="navbar-brand px-2 " href="index.html">
+                <img src="images/logo.png" alt="Logo" class=" object-fit-contain" style="width: 80px; height: 60px;">
+            </a>
+            <span class="navbar-text text-nowrap fs-2 fw-bolder"> Grill BBQ Restaurant </span>
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item mx-2 ">
+                    <button class="lang-btn text-center"> ع </button>
+                </li>
+                <li class="nav-item mx-2 login-btn">
+                    <a class="nav-link text-center d-flex align-items-center justify-content-center"
+                        href="contact.html"> LogIn </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="hero">
+                <img src="images/bghero.jpg" class="object-fit-cover w-100" style="height: 350px;" alt="">
+            </div>
+            <div class="bg-white overflow-hidden p-5 pb-3 my-4 contact-form d-flex justify-content-center align-items-center mx-auto">
+                <form action="">
+                    <div class="row signup-form d-none" id="signUp">
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-lighter w-100 ms-1 mb-1 text-start text-capitalize"
+                                for="name">Name</label>
+                            <input required class="form-control" type="text" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-lighter w-100 ms-1 mb-1 text-start text-capitalize"
+                                for="phone">Phone</label>
+                            <input required class="form-control" type="tel" id="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-lighter w-100 ms-1 mb-1 text-start text-capitalize"
+                                for="password">Password</label>
+                            <input required class="form-control" type="password" id="password"
+                                placeholder="Enter your Password">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-lighter w-100 ms-1 mb-1 text-start text-capitalize"
+                                for="confirm_password">Confirm Password</label>
+                            <input required class="form-control" type="password" id="confirm_password"
+                                placeholder="Confirm Password">
+                        </div>
+                        <button type="submit"
+                            class="btn register-btn text-end text-uppercase w-auto ms-3 px-3 fw-light mt-1">Register</button>
+                    </div>
+
+                    <div class="row login-form">
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-lighter w-100 ms-1 mb-1 text-start text-capitalize"
+                                for="login-phone">Phone</label>
+                            <input required class="form-control" type="tel" id="login-phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-lighter w-100 ms-1 mb-1 text-start text-capitalize"
+                                for="login-password">Password</label>
+                            <input required class="form-control" type="password" id="login-password"
+                                placeholder="Enter your Password">
+                        </div>
+                        <div class="d-flex justify-content-end align-items-center mb-2 gap-3">
+                            <a href="" class="toSignUp fw-light pt-2 text-decoration-underline">Don't have an
+                                account?</a>
+                            <button type="submit"
+                                class="btn loginBtn d-inline-flex text-uppercase px-3 fw-light mt-1">LogIn</button>
+                        </div>
+                    </div>
+                </form>
+           </div>
+        </main>
+    </div>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.17/dist/sweetalert2.all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
